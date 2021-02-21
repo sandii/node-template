@@ -2,9 +2,18 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
-    "strict": true, 
-    "esModuleInterop": true
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "removeComments": true
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.ts"]
 }
